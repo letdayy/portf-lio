@@ -1,6 +1,11 @@
 * {
     list-style: none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
 }
+
 
 body {
     background-image: url(../img/tree.webp);
@@ -34,13 +39,19 @@ body {
 .tabs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .tab {
-    margin-right: 20px;
-    background-color: rgba(238, 125, 195, 0.74);
-    border-radius: 20px;
+    background-color: rgba(94, 94, 94, 0.514);
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.tab:hover {
+    background-color: #746e6e;
 }
 
 .tab img {
